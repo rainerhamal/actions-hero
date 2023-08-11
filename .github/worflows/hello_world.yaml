@@ -2,10 +2,10 @@ name: Hello world workflow
 
 on:
   push:
-    branches:
+   branches:
     - main
   pull_request:
-    branches:
+   branches:
     - main
   workflow_dispatch:
 
@@ -23,4 +23,3 @@ on:
         - name: goodby world
           run: echo "Goodby world"
           shell: bash
-          
